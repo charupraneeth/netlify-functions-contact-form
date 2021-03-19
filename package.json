@@ -1,0 +1,20 @@
+{
+  "name": "netlify-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "netlify-lambda build functions",
+    "serve": "netlify-lambda serve functions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "netlify-lambda": "^2.0.3"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.2"
+  }
+}
