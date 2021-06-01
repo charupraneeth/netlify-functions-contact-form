@@ -7,6 +7,7 @@
     <title>MyForm</title>
     <style>
       body {
+        margin: 0;
         display: flex;
         flex-direction: column;
         width: 100vw;
@@ -89,6 +90,7 @@
         }
       }
     </style>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body>
     <h1>Hello!👋</h1>
@@ -108,7 +110,13 @@
         <input type="text" name="fromMessage" id="message" />
       </div>
 
-      <button type="submit">submit</button>
+      <button
+        class="g-recaptcha"
+        data-sitekey="6Ld-6oYaAAAAAGzBPazTI60Nj5j0QjtLgobTyCqD"
+        data-callback="onSubmit"
+      >
+        Submit
+      </button>
     </form>
     <div id="snackbar">Some text some message..</div>
     <script src="./mail.js"></script>

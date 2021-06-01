@@ -4,17 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "netlify-lambda build functions",
-    "serve": "netlify-lambda serve functions"
+    "serve": "netlify dev",
+    "build": "netlify build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "dotenv": "^8.2.0",
-    "netlify-lambda": "^2.0.3"
+    "dotenv": "^8.2.0"
   },
   "dependencies": {
-    "@sendgrid/mail": "^7.4.2"
+    "@sendgrid/mail": "^7.4.2",
+    "axios": "^0.21.1"
   }
 }
