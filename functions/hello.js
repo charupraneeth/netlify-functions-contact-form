@@ -191,7 +191,7 @@ export async function handler(event, context) {
     </html>`;
   const mail_to_send = {
     to: "charupraneeth@gmail.com",
-    from: "sreeg459@gmail.com",
+    from: "charupraneeth@gmail.com",
     subject: subject || "this was meant to be a subject",
     html: htmlTemplate,
   };
